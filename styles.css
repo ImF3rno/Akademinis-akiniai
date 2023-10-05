@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+/*==========Pagrindinis viso html konteineris==========*/
+.container-pagrindinis{
+    display: flex;
+    border: 1px solid black;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    background: #F2F9FF;
+}
+/*==========Kaire puses konteineris==========*/
+.container-kaire{
+    width: 30%;
+    background: #F2F9FF;
+    border: 1px solid green;
+    z-index: 0;
+}
+.container-kaire h2{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 1.6rem;
+}
+.container-kaire img{
+    border-radius: 15px 50px 50px 50px;
+    background: url(<path-to-image>),cover no-repeat;
+    margin-top: 4rem;
+    margin-left: 6rem;
+}
+.container-kaire p{
+    display: inline-flex;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    margin-inline-start: 3rem;
+    padding-inline-start: 2rem;
+    justify-content: space-evenly;
+    margin-top:3rem;
+    margin-bottom: 3rem;
+}
+/*==========Desines puses konteineris==========*/
+.containeris-desine{
+    display: flex;
+    width: 70%;
+    border-radius: 50px;
+    background: #FFF;
+}
+.containeris-desine header nav li a{
+    width: 100%;
+    height: 2rem;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    flex-grow: 1;
+}
+.containeris-desine .cartas{
+    display: flex;
+    flex-grow: 2;
+    height: 2.1rem;
+    border-radius: 5px 15px 15px 15px;
+    background: #2B2B2B;
+    color:white;
+    margin-top: 1rem;
+    margin-left: 60%;
+    margin-right: 7rem;
+    justify-content: left;
+    padding: 5px;
+}
